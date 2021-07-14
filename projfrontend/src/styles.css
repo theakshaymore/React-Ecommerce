@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+
+body {
+  background: #f9fafb;
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 500; */
+}
+.my-login-btn {
+  background-color: #e53e3e;
+  color: white;
+  transition: 0.4s;
+}
+.my-btn {
+  background-color: #e53e3e;
+  color: white;
+  transform: scale(1);
+  transition: 0.4s;
+}
+.my-btn:hover {
+  background-color: #822727;
+  color: white;
+  transform: scale(1) translateY(-15px);
+}
+.my-jumo-btn {
+  transform: scale(1);
+  transition: 0.4s;
+}
+.my-jumo-btn:hover {
+  transform: scale(1) translateX(20px);
+}
+
+/* Home */
+.wrapper {
+  margin-bottom: 40px;
+}
+
+/* Navbar */
+.nav-btn {
+  background-color: #e53e3e;
+  border: none;
+  border-radius: 5px;
+}
+.nav-btn:hover {
+  border-radius: 5px;
+  background-color: #9b2c2c;
+  border: none;
+}
+.nav-brandname {
+  color: #e53e3e !important;
+  font-size: 25px;
+  font-weight: 500;
+}
+.nav-slogan {
+  font-size: 12px;
+  color: black;
+}
+.dropdown-menu {
+  background-color: #f56565;
+}
+.dropdown-item {
+  background-color: #f56565;
+}
+.dropdown-item:hover {
+  background-color: #9b2c2c;
+}
+.my-jumbo {
+  background-color: #fff5f5;
+}
+
+/* Card */
+.my-card {
+  background-color: #f9fafb;
+  border: none;
+  box-shadow: -2px -2px 5px #ffffff70, 2px 2px 15px #00000070;
+}
+
+/* Dashboard */
+.my-profile-card {
+  background-color: #fff5f5;
+  border: none;
+}
+.profile-card-header {
+  background-color: #e53e3e;
+  border: none;
+}
+/* 
+.add-cart-icon {
+  display: none;
+}
+
+.add-cart:hover + .add-cart-icon {
+  display: block;
+} */
+/* Footer */
+footer {
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  /* height: 40px; */
+}
+
+/* About us */
+.about-jumbo {
+  background-color: #f4511e;
+  color: #fff;
+  padding: 100px 25px;
+}
+.about-con {
+  padding: 60px 50px;
+}
